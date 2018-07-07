@@ -23,7 +23,7 @@ bluebuttonState = digitalRead(bluebuttonPin);
       bluebuttonPushCounter++;
       Serial.write("1");
     }
-    delay(60);
+    delay(10);
   }
   bluelastButtonState = bluebuttonState;
 
@@ -33,7 +33,7 @@ bluebuttonState = digitalRead(bluebuttonPin);
       redbuttonPushCounter++;
       Serial.write("2");
     }
-    delay(60);
+    delay(10);
   }
   redlastButtonState = redbuttonState;
 }
